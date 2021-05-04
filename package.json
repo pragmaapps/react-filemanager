@@ -19,7 +19,6 @@
     "distclean": "lerna clean --yes && rm -rf node_modules",
     "lint": "lerna run lint",
     "lint-fix": "lerna run lint-fix",
-    "postinstall": "npm run bootstrap",
     "build": "lerna run build",
     "start": "lerna run start --parallel",
     "updated": "lerna updated || exit 0",
